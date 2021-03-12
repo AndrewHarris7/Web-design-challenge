@@ -41,7 +41,9 @@ body {
     padding: 10px;
     margin-left: 5%;
   }
-  
+  .navbar, .navbar-expand-lg  {
+    float: right;
+  }
   /* .navbar-collapse {
     position: absolute;
     right: 5%;
@@ -51,3 +53,6 @@ body {
   .nav-item {
     font-weight: bold;
   } */
+  il {
+    float:right;
+  }
