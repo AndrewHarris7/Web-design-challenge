@@ -10,36 +10,32 @@
  <link rel="stylesheet" href="/static/css/style.css">
 </head>
 <body style="background-image: linear-gradient(45deg,Teal,coral,transparent);">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light"> <!-- static-top mb-5 shadow-->
-    
+  <nav class="navbar navbar-expand-lg navbar-light bg-light static-top mb-5 shadow">
+    <div class="container">
       <a class="navbar-brand" href="index.html">Cities Latitude</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="navbar-collapse collapse " id="navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Plots
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="Max_temp.html">Max Temperature</a>
-            <a class="dropdown-item" href="Humidity.html">Humidity</a>            
-            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-            <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
-            </div>
-          </li class='nav-item'>
-            <a class="nav-link" href="Max_temp.html">Temps</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="wind_speed.html">Wind Speed</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="cloudiness.html">Cloudiness</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Humidity.html">Humidity</a>
-          </li>
+            
+           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             Plots
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="Max_temp.html">Max Temps</a>
+              <a class="dropdown-item" href="Humidity.html">Humidity</a>            
+              <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+              </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Comparison.html">Comparison</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Data.html">Data</a>
+            </li>
         </ul>
       </div>
     </div>
@@ -49,7 +45,7 @@
         <h2 class="text-left">Wind Speed</h2>
         <hr class="my-4">
         <img src="../Resources/assets/images/Fig4.png" alt="Latitude vs Wind Speed" class="img-fluid">
-        <p>As expected, the weather becomes significantly warmer as one approaches the equator (0 Degrees Latitude). More interestingly, however, is the fact that the southern hemisphere tend to be warmer this time of the year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered.</p>
+        <p>The plots shows me that the wind speed isn't a real factor I dont see a strong correlation with the plots.</p>
     </div>
      <div class="col-sm-12 col-md-4 col-lg-4" >
         <h2 class="text-left">Visualizations</h2>
